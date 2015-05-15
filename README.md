@@ -1,5 +1,9 @@
 ## Latr
 
+## TOP
+- https://github.com/futurice/ios-good-practices
+- Note that we are using a Storyboard identifiers generator (Natalie)
+
 ## Feature Considerations
 - url paths for navigation. eg: latr://dashboard/movies#guides
 
