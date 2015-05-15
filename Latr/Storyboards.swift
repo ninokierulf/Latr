@@ -8,7 +8,6 @@ import UIKit
 //MARK: - Storyboards
 enum Storyboards: String {
     case Main = "Main"
-    case ModulesCatalog = "ModulesCatalog"
 
     private var instance:UIStoryboard {
         return UIStoryboard(name: self.rawValue, bundle: nil)
@@ -50,12 +49,5 @@ extension UIViewController {
     func performSegue(segue: SegueProtocol, sender: AnyObject?) {
        performSegueWithIdentifier(segue.identifier, sender: sender)
     }
-}
-
-
-//MARK: - ModulesCatalogView
-
-extension ModulesCatalogView {
-    override class var storyboardIdentifier:String? { return "ModulesCatalogView" }
 }
 
