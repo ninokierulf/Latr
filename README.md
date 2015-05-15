@@ -7,7 +7,7 @@
 - Swift
 - TDD
 - __Reactive__ / Fuctional / FRP
-- MVVM / __VIPER__
+- __MVVM__ / __VIPER__
 - Dependency Injection / IoC
 - Rule Oriented Programming - have policies (business rules, domain rules)
 - Modular / composed
