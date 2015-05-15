@@ -10,6 +10,7 @@ build/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata
+profile
 *.xccheckout
 *.moved-aside
 DerivedData
@@ -31,3 +32,8 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# AppCode
+.idea/
+
+*.iml
